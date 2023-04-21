@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pet Sitting - Free Bootstrap 4 Template by Colorlib</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex align-items-center">
+                    <p class="mb-0 phone pl-md-2">
+                        <a href="#" class="mr-2"><span class="fa fa-phone mr-1"></span> +00 1234 567</a>
+                        <a href="#"><span class="fa fa-paper-plane mr-1"></span> youremail@email.com</a>
+                    </p>
+                </div>
+                <div class="col-md-6 d-flex justify-content-md-end">
+                    <div class="social-media">
+                        <p class="mb-0 d-flex">
+                            <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i class="sr-only">Facebook</i></span></a>
+                            <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i class="sr-only">Twitter</i></span></a>
+                            <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-instagram"><i class="sr-only">Instagram</i></span></a>
+                            <a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-dribbble"><i class="sr-only">Dribbble</i></span></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><span class="flaticon-pawprint-1 mr-2"></span>Pet sitting</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="fa fa-bars"></span> Menu
+	      </button>
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item active"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="vet.html" class="nav-link">Veterinarian</a></li>
+                    <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
+                    <li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- END nav -->
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYWFRgWFhYZGRgaHSEeHBwcGh0aIR8eHh4eHB4eGiEeIS4lISQrHx4eJjgnKzAxNTU1ISU7QDs0Py40NTEBDAwMEA8QHxISHzQrJSw0NDQ0NDQ0NDQ0NjQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDE0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIALcBEwMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAADBAACBQEGB//EADwQAAECBAQDBwMDAwMDBQAAAAECEQADITEEEkFRYXGBBSKRobHB8BMy0Qbh8RRCUhVikgdysiMkM9Li/8QAGAEAAwEBAAAAAAAAAAAAAAAAAAECAwT/xAAjEQACAwACAgIDAQEAAAAAAAAAAQIRIRIxA0ETUSJhcYEy/9oADAMBAAIRAxEAPwD5gFqzZlJDG72bSkdVPzkgBnaw84ipaltmFSW10pYQTDy8ikhJNd3D3qAz7RzOqv2AylCUAADvF+J6mBy8xNXSBfiXo3Q25wwlRfMEjY6uOEUGPSCpIIyquWeru44RkrYC2JlBRPeUwu9X5DQCG8OEpACQCNVKu/W0LIxSACEskHcjW/OBzJyVZtiaAAigpvFNNqn0Bp/USLuXoQVBiX1ofhhbE4hwQ7PokX0I0DPo0JlaSAFAgO167neDYdSUk0KiliTVtNRaEoVo7K4aXk7+QU/ySCNmAJqa3aHkKzF0pdIYKAD1dmYcwICrFgGxSkWqzvs1R0gnZswqWteaiBZZJZ3AoPuIAJbg8N21YkrYSZg05iD3Q7gkknldmtp1gIWoOMtE6cdG+dILOzLU+tGcC1GJ57Vhf+p+5JIvfdzcsbAV/MSrY3+ioWAaJN37qS4pU00htUmasOlBy0CSUl2489oW+nXKghdLmgANS29hDCMwAdICkuQUuoE7BLN4GB50Uoxq2T/SlUdswIdKdHFA2vSOlCgPsN1Cm5+2j6H0gMnGTM2UggjvENbZ60/mHEzCCK5XAzOCpKRbusBbU+MS+S7FSfQFMhQPeYC/eLHiDw2heRIQpRUpWVzShp4QWYhKlqSFOHoxSaCrl+T0EJ9oyiSMgJfyIawFS93rFRW1dAxrEzJdAlS8xJuAGAsRS5u0ZkhalEHPUG3ra/KCYlKkApVUH7Tl04cfSAoWk0ZgAN7iNYqlhLX2aqplGCWao0iuHnhyQkZhvWmsZgxPecPaGJs9JSAlwdXf15xD8dDsIvFHNZNS7kPbZ4HPUogqsHY8eULJbXlSp6PDMoZWY3vmD7vaKpR6EKYqVlb5xg/YeH+piJSHopaARuCoOPB4vi0IWRlOXSpJD6NwjT/ReB/97LdjlKlUt3UKIPi0WpfjvY4q2j2f6hnElo8utOsb/bBKlltIVwWDBWM1ntvGKxHS9Zp9j4LIjMfuVXkNIRx6qxuYlbJjzmLXDi70mSpUVQKPHVTC0VQqnnApky0aIzYRE02MdWjUQvnrFkztIYrCOYkU+pyjsAzy/wDXMMqUkNfVydPxDC52VAzUUahrNzEEnLAUMjJSku5DuRY05kM8KY6SpYCg7OwSS5L/AOKRYAanhGSUZNejMt/UHLmNBoxub23hWZiSoh2FqkCn4iYWRMU1CEpe5apctXcwJEkk1cAl80aqMUASZNDlNDW5G3t+YIgpAermz67+cCSjQBhdyM1eDCLLkmhChlsDVhWt3aB10BJa01oeT/kUFo7/AFAGoY1LC2msWVLDMKqDOQXHpAv6RTkFJcXArTpCx9gXUurg1Nv2h+RNGRgw7wd1DYgFr6qoIRw0sKUEqICbqJslI+4tclnDbtGpNVIzEy0jKAGLAkufHe4BiZJUNLLFzMooO4DZb8risKTUMASWJHOt7k8fLjGgyBmKXJ1cku9qG37wtPQVjupJIYMaNxfV4mL0G8OYMlSmJJB07xB5MXLXh2dMWO6HQ7sSCC2jvasZssrQpLJIVZLG/OvJ4OO1FlTqUKWdyHZqDTnFShbEmdGJdXeDEUobkXtSCLxCksKMb0B1etItMnAoSlIYJqFakmh1ZtPTUwASlO9OIc832HJzEUrAbKSUvlTlqLB6i7NSpvYRDiWSHACQGcXUwFLP+0KrJUpwagOXvUEAWsKmrvR4zhMUT3jzh/GmWrNeTjUF0qC8rV7wVTiCBbcGMafRSgmzwykuYpjJQypUAXqCetI0hSY5dAUTjangKwQzsys3jtygMqSouw0vD+DSAnKWUVVArbeKlS6M6M4lq+UEGIIrUHSNZeGlEFILEMTqXNTCJw4TVTkaCof5tCU4vAoHLJYqYnfnuPOPa/8AT7Df/NPU9EBCSd1EKV4BI8Y8dJIzM4YggMdbjzDR9WwGAOHwsuUWz5cyzrnVVjyDJ6RM3hfjVyszcSnMr1i+DQ6xAp0xqwz2cr+6MvR0Lst2nMrljAnLc9Yd7RnVJjLQXLxpFYZyejGe8AUhxSOKMElLEUjNgM8cEwRycliYEBDAZEwRIUeJBQGOhWZRe1thDMmUatmBACnzMAAXjNBbXm9xW3OG1T1fTzCneAPEFz7RLi/RKDy8UqyhmOoFKvo2tINOKikZUkHXNb3MLylKSklScxURa+4q/nDk45vtCQqzs7bDyMZySTwYliClIdN24PpcaCFp5KmTcCxu+5J5QwZKirvGrG5avtFJKWTmcNXWvD3i44ibOyu6KpcFqV8YipqvtAYO9XJJtWtfbpAp2JJGU2NQPzC31SC/TkOUNRvWBs4OXIDpWxLOVKKbsaJBuBwgRlAF85y6EqDnwrAcFj0JQoGWkrYpCgHVW5Lgh9HDGGcMhSkuUpbQlqA8uOkKaa7G2qooqoZKkkP4P+8LYyaDQJSQCwVq7eYv5Qafh01chLEAC7kt1jPxEsAkPUHgAeN6Q4JEhsPPLizh2JLhJOo284vkSl2UyaBzcndiCw9oUlFug+c4LKUkqzKXrZnOz7AxbQ0NqSpLse9UUYgaPaLslSACGIcu4BPAVc9YEqYA4BOQgM96N924cwBU0gkA/OG0Qkx17GvpkBwfGprXSF1SQ73HDThF5Dp7wBZrGteTxcrUSmgBuW10tC1DbwJJQkANc63p6REzU5lJIJABJcegdvGB4iYzFNB1fmT+ICMSQ6ksTQOz834MD5QKLeg23RpTEZ3ShKQWqXcgcWHnygH9OlMwJJNE0bhqDyiYjEEFKLADOoaFTOkHgB5kwKWklBO/dTXV3oTvWHGLSAXnTSlbpHetXvPDU6WVfeoJbRNaXcjy8IQnlQWVVSX5NSHcHNb6oOqK0cllAt1aLceiTa/QfY318QJiw8uUc5G6v7EdSArkk7x7XGYoqWtzqa9Yd7AwcrD4OWmUQrOnOpX+SlgF+gZI4CMzGoABIjGb5So6ILjGzGx8xiYdwS8qOcZeKYl3hpS2QK6D0gaGmKYxbqYWgCAaxFLDA7xEKvGhkzhrHERCQI4m0AgeJm94iFgqsQqckxAQYYF4kVzcIkFgYmIQVOoBIc1AJNesdw3edJsQB7Ax2ZiCHDaDw18oJgsOaEs3MCn4aKbUVpIxhypAygZmOpbcaQfEYkp7qQEgCr+1d94FPmqDZUqD1o6hXZqekDZRJdJenGjgtR7lqRi0m7oRSfMUoZagMkna9/MQsmaE3AraGU1NaEUc0AAFAQfCAT8IXoc2o3r1i410AOSnMCSpmsMrv4U084oAQXSFAgu48/KDrSlKEkqzEhwkWbjCuImZiSAw0Gg5RatsDqEG4pxfrDhWsoD5ikME6JFL2BNBGaBB1zFFkuWTVobVgXxGKK0pB/tcc3LknjEEpu8qguGDjyMDag48NNyYLMCEKGU5iNdP3g/SAusZUhTBiaMRU35wCRLzKAb8xfEKznMwdrCjAUrvAithRRc3bQbQJYI6s1Oz8zHSp7C2jXiGUlgQakeHCBp2b4YKALJUzk7U+e8FQvM9WcNT8DSBT8OUllApJAIB2NjyIiqK0AfkHhNLsZo4dbJo7aEaePpHcMnOsJZu8AWo4J315RWXLA7uZiWLhqUsdYYwhCVpKh3cwZWx0J0Ad6xi8toaGu1cAUFayGJr40hBMvKpQUQKApBLUNCx0L+0e2xnZ2dGc95x5R5edgPqTJaWOXOUqGrEZq+BhePydJmvkjTwQOG+ociVBQqUqDO4uG15eEafZvYa0y5mIWRkSAhP+9Su8RWzJT5iPQS+zky1yZciQhalqZykFtySoH5yja/V604bDolICGS5LAAFRFwnRrDYNFSm0sCMLYj+kZ5VhshP2LUkVehZflmbpHO0Z9SnSFv0uojDLWf71qI5ABPqkwvPmPeJS22VJ0qEsQW+czAZk8nWJjF0bf3Ye8Z6Zrkjn6wxIdNUtxi8s5RFZCw0XopoqyaBZngyEEtzAiolZjDWGkEOFdOEFiYj9Nn5wL6cGx03KoJFST/J5RVCxCvSvRTIIkV+oneORVkGKjKU1Bccvhhj66k2Sw8INMlgsUpZQD056wGdJID66vSm3GJ5KXZJcTlkEFRI8GcvprSBrGUs9G147MPWAmYSoVYGp2cVq1rQWYApqZTcEPWt4dUItIVmdKaAVudL0tFZ8wuGABrSov6UihmZXBJy6FIZ9qn1q8Gwy5ZU5BqnUnNmF204b84Hm0FGfiZeUtoRSjfKvFaMBrr+0aXa4R3DUHLVOVtdzGWTtGkXcUxtUQhzGwvsvLLUR92UPxJ0HF4zZDpIUBatQ+3/ANhDs/FzSnIsNmtRj9wLDhEzu1TBUKY6UUqIJc8GodQzuIXTcP8AmHv9MmOQUs1y7ub0apgM6UkKYkhhVg7nQjgb8IqMk8uwoClBJIAPSOJlElvP5yjQwwH0u6e8bgUau+paAZQD3iqtaaaa0MHLWhCjkAjSDYRRdgHUaBywBOphwpBQCySymSLZgAxJ3NvGFijIVZg+zEa1cOHZmrTS8NSvASBrlkGrkAX0awbhDKZdAUPUMS4AcEfafCNGX2cpUsqUpWZQJOtGcUIFdDa5jO7Pw/1M3eYpZRc3D1b5tEc0096G0XWp05mY5srbuNDejMQY1+y5WZAelNbivwxmY091J/uzF+Ifu11p6xvolZcrG6Ra9NPOOfzP8UCPoH6YwCVyEqW9XYDZyHhDHfpNaZ6VSqgmpUAMm71sQ4ttHoezZSpWGQlVF5ADwLWjuJmqQh3c3JiUkkjqrktFcNhEYRBWtWdeVgo0A0ZCb9f3j5p252ovFTkoT3nUw2fc8AKnlGv2z2v9QKQtSm4EhvD3PhGR2HLQjMsklRoFEMw5bcY0jFt2xOSiqRsz54lIRJTZIA+dawgtTxyaEqP3pJ5k+ggoQEhyoNyIHnGlUZN2Z2JRUE7t5kxhzZzGNztSek5QlaGqT307FrncxkYnC93MzjcVHiKQ0gbC4WaSPmsaOHnDU7eJ/aMTDTQEl/jw52eApbCyUg9VfsITQJm7hjY+AhrErZBJo0KSKH94D+oZxCAlIcqPprCQpdmHPxQzFRNTQcoSm4xRtDknA5fuqqhfn+8ZU586mvmIHi0XHjJkthf6lUSBTZJSSK0iRdIVnoFSFIVRVdiHfhttrrAMylEMxc2YEnVgCY7IGYgu+5FL9IqSpMwApuHBGh4lnjlSf+iHFyhlCiEHMBTKQSbBxofSM3GhSam4oQDUDR/HSH5ZKqlVn3ajwtjZCVMbqJ8Lk26+EKDqWjYgmZmYFt6gk3taCKmJdlOGJAIALb2vpaOTcMaBO93Lk7AcN44qYcpSpQqdWccfybx0Y+iQ01aHUFEqBsoBzsHBNKVhUISUghJ84PhsPmyhVlAEG/MRJslJXlSpwqhYmjcxXlCTSdDCyJ2UoOUBIChcVCnr/wAgIcXi0qUhRTUK8HSqgPh5QriMOkAjN9uXLxdRfyBg8/DAFDsa1AHA/t4xlLi3f9HppjFpLhQ4vpS3vGEiWlSFKW+YDusblrca+sOrQAFB3ob10eKz5QcVYqUlmsAC58gYjx1Hr2FgkzEAEZcqctKOxrc9BW/stPAWtDKKgQfubTTr7iKEqK8ygQM1Ry73gBWGpqUoWCNUqoLElhTZ426f7oQ2mQjKhKUgZTmUamprlvWntCOJmSypIUkBiXICgcuZr/3BrOzWhuaoJR3VMpr3DmpcbekZCxmAIpQlRc1NwA+23OF4tttjs0zjk5SEq7gfKFF61ISdW4m9oTwSQAs3VRzwLH115QeQmWAolIdSXSlj3SkEPS4J3vEwYCQk5T3qEEpSNgS9VcLCHiTSEL4hiWAILDusz0BfYvX9495/0/wf11/WWAUyCAmtCshx/wARXmRHke08QnOEBgAAFOlIT0o45kiPqH/TxCBg0ZU5Spa1K590bl+6BEvYptfwuC/I9EouXOkYv6jnsi9NY3pwAQ9tf3j5/wBvdvZl5EjWgvQeZMTFWzeUqEsbLTkACR/u5cYw8Xjlp/tZNhoYfPaaVEgA8aHwrCHbWUhDXKg3IX9RGiwy7EzNnJIACQTuT50gGIwE1XemrDcyfAUAj0c6QFBKtRGbihmB2B9IvlQlpmo7PQAXBNHqeLaQZOGShJyv3r1g00Mhav8AaPJQgS5n/pZgHrCtsqkZwAZQP+Q9zGp+ngO+Rv6D94RnSlKUGSe+AeFHH4jW7Iw5SkuGJNoJSVErs05aCSN4zO0pmadl0QG6mp9o1piwgFRsB6RgS1lS3I+8+cRWMT7GJoYcW8xUe8YWHlZpqq/aonzPvG/h1Mla1EDIkrqxc6AA0LkiK/pLtFMhExRQlRmApdQBL5SzPYOqv8QvF+MW2SxOYhyaCOxzP/uiROjDlLaMPj+UGlpo+1PzbrAvqP6u353iJnmviSa+sZNNiHAkMAEip6nQ+UQYZKf/AM+/qxhZUxrAPZ+Bb8xEz21vEVL0O0ERhUOA7Vq+oJ3MKzezEKBdXeY5RYD86c4KqZ3qmj/mOzMRTQuKi+1en4i4uaeMWGbhcMoApWGzfaXdjVmrS1toOqY6UpKQFJU4IF2LFqc/GJMIYBmG1dXq5HEQucQczFip3CtyzVbVqR0bJ2IpPCgSkkEZXBtbNlv/AN3nGnilslJagUmvMsfKMRTsxqAC3Jqe3hD0/EZkf8fCnuIc46ijQ+okg5RXpC4mBUxINq1bU0Hv4xQYpIa1fmkBMwFRoamnAUeuh1jKMN6E2XQjNMVsCQTo7JDeR8YoucAtFHyggOdbJJ6B4slSU/3AhRcA3JNXPpFTLSSbhV2vRm+dY096Fh8ZKIQSVZiSAUhNqj7SK23eArwiWeqKFTHW7AGxo1ns8CRPzFKXYOSeQBbxBg81SVVUVM7p8NRtzg1YITRiDqHcb1ubUiKxBZgd2N+TFnEcEsKOYkZRqDVuRMcTJKiogUTxbf8AEaVEC+dSgaOwq9n4WYx779BdsJQr+nBoXUkF3fL3hyYAjrHzz6OU94FxXQj941uwZik4hC9UrTYNmSqhAA4GnOJklRUXTPq/6m7QKZSmvlT53j5ViJc2avMlRSwYKrqXVryj3/6lCiohJcagVttHll4hCXzLTeM4P6NZLS3ZmCyIykuRV94zVJC8QW+1FOvx/KCYjttCUlKHJ3s25G/y8C7GWnKVPqXf5s0ab2yDRxWIyIO+nOEpSGkueJ8Ypj1Zi0XnzB9IJe50azF7wm8DpCwVmkTG/wAT5V9oW7NWchfU0gWIxJlpyoJ7zu7W+GLYRX/pi2vq8OX/AAS5D5UdK0A8bRqYQMALmPPoxISQb5asOAJHtGj2Hj3oq/qIzUK0cSfqPElCUgXJY8rn2EZnZeKGYA9IP+pZmdbD+0P86RlYVDmv9reEbJLiK9He2ZxJKdDXmLwLDzO6n2G1PaL9rSR3FJNCluqf5hUfaB8+PBS4pCY19Xl5fiJCr8okTxQjVKyL/amzueXgIGuYKt5V6GAKk953Jr3QxGu/zWO/TUGYguatoXMRxQHVTVGhag08QOED+uSQ5AZufg0EShWpL6AMOf8AED+gLittrmKXECxn6Fqm9a1jkzFpqNAKNc7fnpFFS6kC5Jo3jFVSNGYnQ7D8w0ogd/qAp26OSaeMVlTHWjfMCOlW5ExAghmNPJtWiYdFQWsD/wCJMUqQC6llwdh6ivrBM5KbfPSOy0ZiaVNfSkVWAGBLs9ud4u10BYqs3j8rFjiD9pLAUsT8MDWwoRzg+HlBQJJUAgAqYi1qUvCwCTVUR/k1OQUQ48/XaFZM0p1hlczMhy4AcWcDYDoT/wAYTydYaWUxhJk0qVmNDwgkvEM9AbX10gJT0PH8xZMlzttxa7GBpUIYJSokkMAKa8xS79GgqMWliAgJDVr+0BlICeJIYvpmDAeBB6wXD4dQSVZXvUto9qXiJVQUGCXS5IHdZILPWr/NxA5edJdIco71GahodmJrHcPNKlJBVrtanGKmYrIrLQEOWLE6U1NYnU6A9v232P3wPqLOcZstBSmgFhGT/oqA5yk8zHucfIYhWqZfs3qYwCkUcwkjRvTBndkyywygdIzuymSFoNWWw9PZ49D2mcoJBtHksFMUlWZn7zt/uNA//KK9E2O42blPE2HvCa5xNXjiyS5VUk3HJ4qqXpxt0ic9icrFZqCovcwWW6QzQVMuLoRRnAp88veKcsoRTDnvCmoHjSNLCySgKWUs3nA+zsOVTUDZQUeSWPoDGn2yWlkDh5mvkDE3ZUcR5taypRUbkn4I7Ill07qfwt6+kFTTSu2g+NHVGza26w3IkZXLzobV3HMfmo8ITCGd/PpBxMKVLGhLtz2hZa3VqGr884OymWyDYRIHkESCv2SHCRmYB6P1rUvpR+kdTMUAzOok1ZmsxflRoAuZmKWA1cW2g6EkEFwx3uDxoQzwNfYHQvcUA8SfO8cUzDg9G6O2vWOhRUo5jqK8dydogWliQCdHpSruOdomgOfTepcijV418zHVoo4rWjuGbTxA6QXDmiRo7Ec6OHoWPtF0ynvUs++jjlEuVALLQ2r72F9RWsUSVBJOw237vo4h2XhHcv3QWJIPGxdqHWukXMkZbUvx7oo/WHzSGkKolKUWAdLCnodNRC03QMX8uPt4RqzZRZwwLtsrg+3lrBJYzFL1CQSQSR/tFREryVoUZauz1E/dpmtbU+UMy8CSSkKcqOcjTKSyQa7FR6w0qWrMEhQH+QFSwqWfesWmB1PVtWNNOrUHTnB8roKFE4MJRkICsyqKuxFumnWF/wDThQPz3vfZo3P6ajA1BZuSXpzeKiQQQaGwYhmfelm94hed/Y6MNOAop9CACGDuSPHhBBhVMUpqxowS7EV9DGwJICS+4JoNC9DxppAvod/u1VRKR85w/mbFQumQl+9cgaPXQGmlPeBqTlomw1e5fTh5VjTIIYKJU1CWBPPhZ4EMMHHd2YvSmtC/HaIXk+woT7MwWYlSqMKDxqluXKsHwHZf1JspCQ2dd3dIFHc3dq6WhmaEpU6STQN5uPSCpLMQSG/uchnFLXs3yp8rux16Pf8AbCCokAhKWqolhfbpHmzJBdbpIBYF/E9dOFdY8f2jjZpQApalZi7O3dANW3O5s0HwPahyoSXc0YPWwc7BiDHUurHJl+3MShQyoV3WUFNuKW8aCMrDKPezfc9RbQAeIEdXMSxB1JJI/wAiSp/xHQlhmJJNnIa1rc4TeEDClU8vH4YC6WtrFVTQBWpd+nDaKrmgAka9XPGM1FgFCQ9jS1LkGvP+ItJQHry8qwBM/wCbH4YPhzmLOHNn96WgaYGj2dLAKpjFkhhzN/ADzivaeJGRBuCSPANF8VikJQEIUS1+6wUTdRBLhzbg0Yk+eWbavX+KRUVeFOkqO5wRe3o+sWSsAE2fja0KIlkigqAX5QQYc5XJoT80aKcV9khMTOzE6udr+EBFSbRdH27OS55H1/EV+mXNeY1HEQ1SwCuXl5/iJFch2MSKAqheQ8vf4Icl4ipcBi9DxFTztWEpkthbe9PlobkyntXuhoUqqwGZ+XJmBNiydBQinzUREB8qbBIDtu1OW8BmzBlyjcO9W0c+jcIZyhIY1PPU1jJ4gOzkhIATdIYHZ7h9RaGsPKpxoKlqB7iM0EUBqxc8A9BzcD4YekTxqeVozmnQ0PFaQnKGs2Yc9K6wBBcd0j96UbiYG6qENw560iiZmUKy0Vvo/E6UfrGaiOxtSgAwDEkksa/5VPSOTEUoWSXataU8y8Z6gpNaMdR09RBkzqBnpbS8HFrphYzJGSxum52ueWkcXM2r1d+Wl94FkFSenhTSkVmLsztoDpoSX4CCrYWMpUSohJyqfWuu/ANDLCoDUDu9TYe3SMpWJKWLGijxpvWh08IMjEDduZNuPK0KUH2FjJxCQkul3Ou7s3mqCS54qoUU9NAaC2xpCX9QEvmBILAsdSb83rpHUkA3DCtRozF96AQuAWMAuWygE8A17lhfSOrBqw0ct4XtuIWRPq5sHbrpz48IN/UXqGpStRdvAnWE4tBZdcsMOAZ7VubFiwYawRCxQqDi6UjU6QH6rnMommlgd6b130hSZMckJvzuH9KQKLYXRbFy8ysyk2dw1GrStxWg2jiZLWSzhu69mcZRpHUTE5Q4NPu41J15AdYMmewuQEhqc79adBGr5JUAj/RhKQVAPo9XL3bVoqrDlRq5LaVetD4ND/1EkpoDRi771Nd6QGcVd1qPsBYbAdOPlDU3eioCvDupLJILB2rc+pob6wrMwZBYUGrm2oHMfmNaWQzWOteTX4AdWiyyABmAY3bfreH8jTHVmGcKu4D1p6wT6SswABYnTd3b8RsIylub040vs0DK2ZIfyvram0Hyt+goROGVUua3d9NB6xcSUl6V014lugbwhkzXYCpcvs5oAT7VvaBLQoOxF2puatXhwEHJvsTRSRJSCVb0t0JisxNgHVrQ8f4igmqALqatGA+fxBJa+OmzWH5h07sZFyBUNrVgenznHJMpwSlgrQnZ609OcWykuX7xHHrSOrQQcrVAL8306wWwBIUwZgOij56xyGXOx8D+Y5BaAzhKzXTQ20vQM8SSMoapU7CjAkEgtyZ4dWoEFi7a8OsKSFF1ahKiAG1UXMaJtokvOSAWfvKKSSXuCCT4acIuVJLqBc1ZJ/8AInjC2MUHSkDg+opz2aCSpoDje4FTrqH9YGnxsC8mUWJfWzM9xTxHhBqiiRQAh/nMwD65AZI6uQ+0WRNUdRzIfjWJab0A6VgVJDm1wenJoEtGb7qMQaUcgNXa5/MVUoEgsDxdqjg0WK20FmDF784VUBPq0IJDfNoH9fwbziuRnN+ADtV66aRUEAks9aPT3eKUUAYTw4fp4xf6rlwNBfazGE1EE/irQXNrwaBxQDCAGDmmz2EcmECxNthp+7GAS1cf4iy1fnkYVaM7LWQSD+L3hhNKto1YCLZrH1iqi7V1oOJgasAi1NYCh312r8vHJU05ta31t+0CUHpWlq6wRIAevy4gpUAWZMf+7x8YGFa0FTrvaOBJNR4dIXmE1f58rAooBoKcfPlTBErFnpQV+bwoFsw3jgXXhvBxCx2WutTuOtYsmaAeVRzhVKzp6QNRY1+PC4gOJn95y3xtecHViRbUXLPzjJXMMd+oSYH40wse+qQxszgjw9wI7PmOGBApd7s9/TjGfNmFr/BFszXh8PYWMIKklKXcJq1wz6DxjoSWJe5J/PqKQGUphTX40WTMYN84sfCBoAqk6nSwfmXigSSSSl9TVm1aIk6V/neCJnJH9zliDW1CwpxhahlkqGttD7BuED+pqKfw35jq56GYAMw1fnyhabNAIa0CjYDWb/u8P3iQv9YRIOLAF9dgHvsNucBlTTmU1yX8BEiRukqZJVY7w2c+ogyVuT7U+WjkSB9CKGbV9oJKnFqFhEiQmlQFVFSiQ9b/AJi7nW/De0ciQmM6hAu5oIuUC5q0SJCfYFZYc2FvnpF0ltae/wAeJEgfYFJitBHRY+sSJAMroA9DaLAsS408iH9IkSGBKvesGlzBSjil/AddIkSJYgQXS3m1t4AtZPOJEikMI1uULl2eJEhxEMS1sH1/lo4pWujE+8SJC9gcKN7aRFAVNt/AV+bxIkCAG935QZIqxPw/xEiQ2IidnoI4sPW3y0SJCQyKO9RHUroYkSACq1EX4MOcBUa8YkSKQHM/OJEiQwP/2Q==');"
+        data-stellar-background-ratio="0.5">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row no-gutters slider-text align-items-end">
+                <div class="col-md-9 ftco-animate pb-5">
+                    <p class="breadcrumbs mb-2"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>About us <i class="ion-ios-arrow-forward"></i></span></p>
+                    <h1 class="mb-0 bread">About Us</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ftco-section ftco-no-pt ftco-no-pb">
+        <div class="container">
+            <div class="row d-flex no-gutters">
+                <div class="col-md-5 d-flex">
+                    <div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-center mb-4 mb-sm-0" style="background-image:url(images/about-1.jpg);">
+                    </div>
+                </div>
+                <div class="col-md-7 pl-md-5 py-md-5">
+                    <div class="heading-section pt-md-5">
+                        <h2 class="mb-4">Why Choose Us?</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 services-2 w-100 d-flex">
+                            <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-stethoscope"></span></div>
+                            <div class="text pl-3">
+                                <h4>Care Advices</h4>
+                                <p>Far far away, behind the word mountains, far from the countries.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 services-2 w-100 d-flex">
+                            <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-customer-service"></span></div>
+                            <div class="text pl-3">
+                                <h4>Customer Supports</h4>
+                                <p>Far far away, behind the word mountains, far from the countries.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 services-2 w-100 d-flex">
+                            <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-emergency-call"></span></div>
+                            <div class="text pl-3">
+                                <h4>Emergency Services</h4>
+                                <p>Far far away, behind the word mountains, far from the countries.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 services-2 w-100 d-flex">
+                            <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-veterinarian"></span></div>
+                            <div class="text pl-3">
+                                <h4>Veterinary Help</h4>
+                                <p>Far far away, behind the word mountains, far from the countries.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ftco-counter" id="section-counter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+                    <div class="block-18 text-center">
+                        <div class="text">
+                            <strong class="number" data-number="50">0</strong>
+                        </div>
+                        <div class="text">
+                            <span>Customer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+                    <div class="block-18 text-center">
+                        <div class="text">
+                            <strong class="number" data-number="8500">0</strong>
+                        </div>
+                        <div class="text">
+                            <span>Professionals</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+                    <div class="block-18 text-center">
+                        <div class="text">
+                            <strong class="number" data-number="20">0</strong>
+                        </div>
+                        <div class="text">
+                            <span>Products</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+                    <div class="block-18 text-center">
+                        <div class="text">
+                            <strong class="number" data-number="50">0</strong>
+                        </div>
+                        <div class="text">
+                            <span>Pets Hosted</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ftco-section bg-light ftco-faqs">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 order-md-last">
+                    <div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-center mb-4 mb-sm-0" style="background-image:url(images/about.jpg);">
+                        <a href="https://vimeo.com/45830194" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
+                            <span class="fa fa-play"></span>
+                        </a>
+                    </div>
+                    <div class="d-flex mt-3">
+                        <div class="img img-2 mr-md-2" style="background-image:url(images/about-2.jpg);"></div>
+                        <div class="img img-2 ml-md-2" style="background-image:url(images/about-3.jpg);"></div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="heading-section mb-5 mt-5 mt-lg-0">
+                        <h2 class="mb-3">Frequently Asks Questions</h2>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    </div>
+                    <div id="accordion" class="myaccordion w-100" aria-multiselectable="true">
+                        <div class="card">
+                            <div class="card-header p-0" id="headingOne">
+                                <h2 class="mb-0">
+                                    <button href="#collapseOne" class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link" data-parent="#accordion" data-toggle="collapse" aria-expanded="true" aria-controls="collapseOne">
+						        	<p class="mb-0">How to train your pet dog?</p>
+						          <i class="fa" aria-hidden="true"></i>
+						        </button>
+                                </h2>
+                            </div>
+                            <div class="collapse show" id="collapseOne" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="card-body py-3 px-0">
+                                    <ol>
+                                        <li>Far far away, behind the word mountains</li>
+                                        <li>Consonantia, there live the blind texts</li>
+                                        <li>When she reached the first hills of the Italic Mountains</li>
+                                        <li>Bookmarksgrove, the headline of Alphabet Village</li>
+                                        <li>Separated they live in Bookmarksgrove right</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header p-0" id="headingTwo" role="tab">
+                                <h2 class="mb-0">
+                                    <button href="#collapseTwo" class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link" data-parent="#accordion" data-toggle="collapse" aria-expanded="false" aria-controls="collapseTwo">
+						        	<p class="mb-0">How to manage your pets?</p>
+						          <i class="fa" aria-hidden="true"></i>
+						        </button>
+                                </h2>
+                            </div>
+                            <div class="collapse" id="collapseTwo" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="card-body py-3 px-0">
+                                    <ol>
+                                        <li>Far far away, behind the word mountains</li>
+                                        <li>Consonantia, there live the blind texts</li>
+                                        <li>When she reached the first hills of the Italic Mountains</li>
+                                        <li>Bookmarksgrove, the headline of Alphabet Village</li>
+                                        <li>Separated they live in Bookmarksgrove right</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header p-0" id="headingThree" role="tab">
+                                <h2 class="mb-0">
+                                    <button href="#collapseThree" class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link" data-parent="#accordion" data-toggle="collapse" aria-expanded="false" aria-controls="collapseThree">
+						        	<p class="mb-0">What is the best grooming for your pets?</p>
+						          <i class="fa" aria-hidden="true"></i>
+						        </button>
+                                </h2>
+                            </div>
+                            <div class="collapse" id="collapseThree" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="card-body py-3 px-0">
+                                    <ol>
+                                        <li>Far far away, behind the word mountains</li>
+                                        <li>Consonantia, there live the blind texts</li>
+                                        <li>When she reached the first hills of the Italic Mountains</li>
+                                        <li>Bookmarksgrove, the headline of Alphabet Village</li>
+                                        <li>Separated they live in Bookmarksgrove right</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header p-0" id="headingFour" role="tab">
+                                <h2 class="mb-0">
+                                    <button href="#collapseFour" class="d-flex py-3 px-4 align-items-center justify-content-between btn btn-link" data-parent="#accordion" data-toggle="collapse" aria-expanded="false" aria-controls="collapseFour">
+						        	<p class="mb-0">What are those requirements for sitting pets?</p>
+						          <i class="fa" aria-hidden="true"></i>
+						        </button>
+                                </h2>
+                            </div>
+                            <div class="collapse" id="collapseFour" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="card-body py-3 px-0">
+                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ftco-section testimony-section" style="background-image: url('images/bg_2.jpg');">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row justify-content-center pb-5 mb-3">
+                <div class="col-md-7 heading-section text-center ftco-animate">
+                    <h2>Happy Clients &amp; Feedbacks</h2>
+                </div>
+            </div>
+            <div class="row ftco-animate">
+                <div class="col-md-12">
+                    <div class="carousel-testimony owl-carousel ftco-owl">
+                        <div class="item">
+                            <div class="testimony-wrap py-4">
+                                <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
+                                <div class="text">
+                                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                    <div class="d-flex align-items-center">
+                                        <div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
+                                        <div class="pl-3">
+                                            <p class="name">Roger Scott</p>
+                                            <span class="position">Marketing Manager</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimony-wrap py-4">
+                                <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
+                                <div class="text">
+                                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                    <div class="d-flex align-items-center">
+                                        <div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
+                                        <div class="pl-3">
+                                            <p class="name">Roger Scott</p>
+                                            <span class="position">Marketing Manager</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimony-wrap py-4">
+                                <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
+                                <div class="text">
+                                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                    <div class="d-flex align-items-center">
+                                        <div class="user-img" style="background-image: url(images/person_3.jpg)"></div>
+                                        <div class="pl-3">
+                                            <p class="name">Roger Scott</p>
+                                            <span class="position">Marketing Manager</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimony-wrap py-4">
+                                <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
+                                <div class="text">
+                                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                    <div class="d-flex align-items-center">
+                                        <div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
+                                        <div class="pl-3">
+                                            <p class="name">Roger Scott</p>
+                                            <span class="position">Marketing Manager</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimony-wrap py-4">
+                                <div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
+                                <div class="text">
+                                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                    <div class="d-flex align-items-center">
+                                        <div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
+                                        <div class="pl-3">
+                                            <p class="name">Roger Scott</p>
+                                            <span class="position">Marketing Manager</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ftco-appointment ftco-section ftco-no-pt ftco-no-pb img" style="background-image: url(images/bg_3.jpg);">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row d-md-flex justify-content-end">
+                <div class="col-md-12 col-lg-6 half p-3 py-5 pl-lg-5 ftco-animate">
+                    <h2 class="mb-4">Free Consultation</h2>
+                    <form action="#" class="appointment">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <div class="form-field">
+                                        <div class="select-wrap">
+                                            <div class="icon"><span class="fa fa-chevron-down"></span></div>
+                                            <select name="" id="" class="form-control">
+	                      	<option value="">Select services</option>
+	                        <option value="">Cat Sitting</option>
+	                        <option value="">Dog Walk</option>
+	                        <option value="">Pet Spa</option>
+	                        <option value="">Pet Grooming</option>
+	                        <option value="">Pet Daycare</option>
+	                      </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Vehicle number">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <div class="input-wrap">
+                                        <div class="icon"><span class="fa fa-calendar"></span></div>
+                                        <input type="text" class="form-control appointment_date" placeholder="Date">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <div class="input-wrap">
+                                        <div class="icon"><span class="fa fa-clock-o"></span></div>
+                                        <input type="text" class="form-control appointment_time" placeholder="Time">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="submit" value="Send message" class="btn btn-primary py-3 px-4">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+                    <h2 class="footer-heading">Petsitting</h2>
+                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                    <ul class="ftco-footer-social p-0">
+                        <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><span class="fa fa-twitter"></span></a></li>
+                        <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><span class="fa fa-facebook"></span></a></li>
+                        <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><span class="fa fa-instagram"></span></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+                    <h2 class="footer-heading">Latest News</h2>
+                    <div class="block-21 mb-4 d-flex">
+                        <a class="img mr-4 rounded" style="background-image: url(images/image_1.jpg);"></a>
+                        <div class="text">
+                            <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
+                            <div class="meta">
+                                <div><a href="#"><span class="icon-calendar"></span> April 7, 2020</a></div>
+                                <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                                <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-21 mb-4 d-flex">
+                        <a class="img mr-4 rounded" style="background-image: url(images/image_2.jpg);"></a>
+                        <div class="text">
+                            <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
+                            <div class="meta">
+                                <div><a href="#"><span class="icon-calendar"></span> April 7, 2020</a></div>
+                                <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                                <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0">
+                    <h2 class="footer-heading">Quick Links</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="py-2 d-block">Home</a></li>
+                        <li><a href="#" class="py-2 d-block">About</a></li>
+                        <li><a href="#" class="py-2 d-block">Services</a></li>
+                        <li><a href="#" class="py-2 d-block">Works</a></li>
+                        <li><a href="#" class="py-2 d-block">Blog</a></li>
+                        <li><a href="#" class="py-2 d-block">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+                    <h2 class="footer-heading">Have a Questions?</h2>
+                    <div class="block-23 mb-3">
+                        <ul>
+                            <li><span class="icon fa fa-map"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
+                            <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+2 392 3929 210</span></a></li>
+                            <li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">info@yourdomain.com</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-12 text-center">
+
+                    <p class="copyright">
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright &copy;
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib.com</a>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="js/google-map.js"></script>
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
